@@ -1,118 +1,117 @@
- *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-list-style: none;
-text-decoration: none;
+}
 
- }
- body{
-background:url(img/gameagachadoamarelo.jpg);
+body{
+
+    background-image: url(../img/bbbbb.jpg);
 background-repeat: no-repeat;
-background-size:cover;
-overflow: hidden;
- }
+background-size: cover;
+}
 
- header{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 25px 48px;
+.tela-login{
+background-color:rgba(0, 0, 0, 0.9);
+position: absolute;
+top:50% ;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 70px;
+border-radius: 10px;
+color: white;
 
- }
- header .logo{
-width:150px ;
+}
+input{
+padding: 15px;
+border: none;
+outline: none;
+font-size: 15px;
+}
 
- }
- .navigation ul{
-display: flex;
-align-items: center;
-gap: 40px;
+audio{
+padding-top: 30px;
+width: 6%;
+position: fixed;
+    bottom: 0;
+}
 
+button{
+background-color: dodgerblue;
+border: none;
+padding: 15px;
+width: 100%;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
 
- }
+button:hover{
+background-color: deepskyblue;
+
+}
+
+#menu-h{
+    background-color:rgb(37, 43, 43);
+}
+
+    #menu-h ul{
+    max-width: 800px;
+   list-style: none; 
+   padding: 0%;
+background-color:rgb(37, 43, 43);
+}
+
+#menu-h li{
+    display:inline ;
+
+}
+
+#menu-h li a{
+    color:rgb(252, 252, 252);
+    outline: none;
+
+    display: inline-block;  
+    padding: 22px;
+    text-decoration: none;
+    transition: background .3s;
+
+}
+
+#menu-h li a:hover{
+    background-color:rgb(39, 68, 163);
+    
+    
+
+}
+
+#menu-h li:first-child a{
+    float: right;
+    background-color:rgb(39, 68, 163);
+    
+    
+
+}
+.mapagoogle{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+
+}
+
+.logo150{
+
+    position: relative;
+    top:100%;
+    left:
+    right: 100%;
+
  
-.navigation ul li a{
-color: rgb(44, 51, 5);
-font-size: size 18px;
-padding-bottom: 5px;
-border-bottom: 2px solid transparent;
-transition: all .6s;
-}
 
-.navigation ul li a:hover{
-border-bottom: 2px solid #138ecc;
 
-}
 
-.navigation .search{
-width: 22px;
-cursor: pointer;
-filter:invert(1)
-}
-
-.navigation .perfil{
-width: 70px;
-cursor: pointer;
-}
-
-    /*main*/
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 40em;
-    margin-top: 1em;
-    }
-    
-    main section{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 2.5em;
-    
-    }
-    
-  main section .logonote{
-width: 10em;
-margin: 2em 0;
-
-}
-  
-  
-
-    main section .btn-box{
-display: flex;
-align-items: center;
-gap: 20px;
-    }
-
-.btn-box .btn{
-padding:10px 25px;
-background: #425265;
-color: aliceblue;
-border-bottom: 2px solid #fff;
-transition: all .3s;
-}
-
-.btn-box .btn:hover{
-background: #2d3846;
-
-}
-.btn-box .btn:focus{
-background: #0d3468;
-
-}
-
-main section .text{
-color: rgb(218, 174, 174);
-font-family:cursive;
-}
-
-main section .audio{
-width: 5px;
-height: 10px;
 
 
 
