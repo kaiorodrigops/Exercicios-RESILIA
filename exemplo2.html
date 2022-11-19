@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"> 
+<img src="img/tubatuba2.png" alt="logo">
+
+    </div>
+   
+   <script>
+        qpp=0; tee=0; mull=0;
+        function peixe(){
+        var qpp= parseFloat(pesca.qp.value);
+        if (qpp>50){
+        tee = qpp -50;
+        mull = tee *4;
+        }
+        
+
+        pesca.mul.value = mull;
+        pesca.te.value = tee;
+        pesca.tp.value = qpp;
+        
+        }
+        
+     
+        </script>
+<h1><i>Pescaria do TuTuba</h1></i>
+
+
+
+<form name="pesca" class="form-control">
+    Quant. Peixe:
+  
+    <input type="text" name="qp"  class="form-control" onchange="peixe()">
+<br> <br>
+
+Multa:
+<input type="text" name="mul" class="form-control" onchange="this.blur()">
+<br> <br>
+
+Total pescado:
+<input type="text" name="tp" class="form-control" onchange="this.blur()">
+
+<br> <br>
+
+Total excedido
+<input type="text" name="te" class="form-control" onchange="this.blur()">
+
+
+<br> <br>
+<input type="submit" class="btn btn-primary" value="Enviar">
+<input type="reset" class="btn btn-primary" value="Apagar">
+
+
+</form>
+
+
+
+</body>
+</html>
